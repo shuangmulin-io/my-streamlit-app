@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 from datetime import datetime
 
+
 # Sets the page configuration
 # You can set the page title and layout here
 st.set_page_config(page_title="HDB Resale Dashboard", layout="wide")
@@ -18,6 +19,7 @@ st.markdown("""
 - Median floor area
 - Town and flat type trends
 """)
+
 
 print(f"🟢 Rerun at: {datetime.now()}")
 
